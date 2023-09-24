@@ -13,6 +13,8 @@
     --mobile-lable: #FF9B00;
     --website-lable: #EC4A9D;
     --sales-lable: #A3D116;
+    --main-bg: #F6F8F9;
+    --lightgrey: #C4CBD0;
 }
 /* #endregion common */
 
@@ -38,7 +40,38 @@ h1{
 /* #endregion header */
 
 /* #region main */
+
+/* #region nav-bar */
 #main{
-    background-color: #F6F8F9;
+    background-color: var(--main-bg);
+    height: 500px;
+    padding-top: 30px;
 }
+
+.nav-bar{
+    background: white;
+    border-radius: 5px 5px 0 0;
+    width: 80%;
+    padding: 10px 50px;
+    margin: 0 auto;
+}
+
+button{
+    background: white;
+    font-size: 11px;
+    color: var(--lightgrey);
+    border: var(--lightgrey) solid 1px;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.enable{
+    background-color: var(--editorial-lable);
+    border-color: var(--editorial-lable);
+    color: white;
+}
+/* #endregion nav-bar */
+
+
+
 /* #endregion main */
