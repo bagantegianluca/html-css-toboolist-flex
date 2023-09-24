@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 :root{
@@ -16,8 +17,28 @@
 /* #endregion common */
 
 /* #region header */
-header{
+#header{
     height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
 
+.logo{
+    margin-right: 10px;
+}
+
+h1{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
 }
 /* #endregion header */
+
+/* #region main */
+#main{
+    background-color: #F6F8F9;
+}
+/* #endregion main */
