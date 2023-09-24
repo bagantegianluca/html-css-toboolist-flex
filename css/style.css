@@ -40,14 +40,13 @@ h1{
 /* #endregion header */
 
 /* #region main */
-
-/* #region nav-bar */
 #main{
     background-color: var(--main-bg);
     height: 500px;
     padding-top: 30px;
 }
 
+/* #region nav-bar */
 .nav-bar{
     background: white;
     border-radius: 5px 5px 0 0;
@@ -72,6 +71,44 @@ button{
 }
 /* #endregion nav-bar */
 
+/* #region todo-list */
+.todo-list{
+    background: white;
+    border-radius: 0 0 5px 5px;
+    width: 80%;
+    padding: 10px 50px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
 
+h2{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+}
+
+.task>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.label{
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.editorial{
+    background: var(--editorial-lable);
+}
+/* #endregion todo-list */
 
 /* #endregion main */
