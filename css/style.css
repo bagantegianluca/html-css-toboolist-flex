@@ -1,0 +1,23 @@
+/* #region common */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --editorial-lable: #14AAF5;
+    --q1goals-lable: #AB5DE6;
+    --recruiting-lable: #2CC6AB;
+    --mobile-lable: #FF9B00;
+    --website-lable: #EC4A9D;
+    --sales-lable: #A3D116;
+}
+/* #endregion common */
+
+/* #region header */
+header{
+    height: 80px;
+
+}
+/* #endregion header */
