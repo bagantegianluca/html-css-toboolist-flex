@@ -89,6 +89,7 @@ h2{
 .task{
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .task>img{
@@ -102,12 +103,23 @@ h2{
     border-radius: 10px;
     padding: 5px 10px;
     font-size: 10px;
-    margin-top: 10px;
     margin-left: 5px;
 }
 
 .editorial{
     background: var(--editorial-lable);
+}
+
+.q1goals{
+    background: var(--q1goals-lable);
+}
+
+.recruiting{
+    background: var(--recruiting-lable);
+}
+
+.mobile{
+    background: var(--mobile-lable);
 }
 /* #endregion todo-list */
 
