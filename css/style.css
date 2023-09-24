@@ -13,7 +13,7 @@
     --mobile-lable: #FF9B00;
     --website-lable: #EC4A9D;
     --sales-lable: #A3D116;
-    --main-bg: #F6F8F9;
+    --bg: #F6F8F9;
     --lightgrey: #C4CBD0;
 }
 /* #endregion common */
@@ -40,23 +40,25 @@ h1{
 /* #endregion header */
 
 /* #region main */
+.bg{
+    background: var(--bg);
+}
+
 #main{
-    background-color: var(--main-bg);
-    height: 500px;
-    padding-top: 30px;
+    padding: 30px 0;
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* #region nav-bar */
 .nav-bar{
     background: white;
     border-radius: 5px 5px 0 0;
-    width: 80%;
     padding: 10px 50px;
-    margin: 0 auto;
 }
 
 button{
-    background: white;
+    background-color: white;
     font-size: 11px;
     color: var(--lightgrey);
     border: var(--lightgrey) solid 1px;
@@ -73,16 +75,18 @@ button{
 
 /* #region todo-list */
 .todo-list{
-    background: white;
+    background-color: white;
     border-radius: 0 0 5px 5px;
-    width: 80%;
     padding: 10px 50px;
-    margin: 0 auto;
     margin-top: 5px;
 }
 
+section{
+    padding: 20px 0;
+    background-color: white;
+}
+
 h2{
-    margin-top: 20px;
     font-size: 20px;
 }
 
@@ -120,6 +124,14 @@ h2{
 
 .mobile{
     background: var(--mobile-lable);
+}
+
+.website{
+    background: var(--website-lable);
+}
+
+.sales{
+    background: var(--sales-lable);
 }
 /* #endregion todo-list */
 
